@@ -5,10 +5,6 @@ import ScrollReveal from '../ui/ScrollReveal'
 import chefPhoto from '../../assets/chef.jpg'
 
 const MILESTONES = [
-  { year: '2012', label: '...' },
-  { year: '2015', label: '...' },
-  { year: '2018', label: '...' },
-  { year: '2026', label: '...' },
 ]
 
 /**
@@ -63,11 +59,7 @@ export default function Histoire() {
                   color: '#FFFAF1',
                   lineHeight: 1.5,
                 }}
-              >
-                «&nbsp;La cuisine est un geste d'amour renouvelé à chaque assiette.&nbsp;»
-              </p>
-              <p className="mt-3 text-[10px] tracking-[0.2em] uppercase opacity-60" style={{ color: '#FFFAF1' }}>
-                — test
+              > 
               </p>
             </ScrollReveal>
           </div>
@@ -81,14 +73,17 @@ export default function Histoire() {
 
             <ScrollReveal delay={0.2} className="mt-8 space-y-5">
               <p className="text-sm leading-[1.9] opacity-70" style={{ color: '#043e91' }}>
-              Je suis Aldo, chef cuisinier passionné par les saveurs de la Méditerranée..
-              Avec plus de 30 ans d’expérience, mon parcours m’a mené des plus grandes tables parisiennes (chez Guy Savoy, chez le traiteur Noura et Grand hôtel InterContinental ) à la création de six restaurants à Gênes, dont l’emblématique Orient Express.
+              Ulysse – Le Voyage des SaveursChef à domicile – Cuisine méditerranéenne d’exceptionUne expérience culinaire privée, née d’un parcours entre Orient et Méditerranée.
+              Qui suis-je ?Je suis Aldo, chef cuisinier d’origine méditerranéenne, né à Antakya (Antioche), de père grec et de mère libanaise.Mon parcours est celui d’un voyage à travers les cultures et les saveurs : Turquie, Syrie, Liban, Allemagne et Italie, où j’ai vécu plus de 20 ans.
               </p>
               <p className="text-sm leading-[1.9] opacity-70" style={{ color: '#043e91' }}>
-                Sur la Côte d’Azur, j’ai officié au Martinez, au Carlton et au Majestic, puis comme gérant et chef cuisinier du traiteur Akdeniz. 
+                À Paris, j’ai travaillé dans des maisons de référence comme Guy Savoy, le traiteur libanais Noura et le Grand Hôtel Intercontinental.Entrepreneur, j’ai ensuite créé et dirigé 6 établissements à Gênes, sous le nom "Orient Express". J'ai poursuivi mon chemin en France sur la Côte d’Azur où j'ai eu l'opportunité de mettre mon savoir faire au service d' établissements prestigieux comme le Martinez, le Carlton et le Majestic avant d'être de nouveau gérant et chef cuisinier d'Akdeniz Traiteur.Aujourd’hui, j'ai décidé de venir directement chez vous et de proposer une cuisine sincère, raffinée et profondément humaine.
               </p>
               <p className="text-sm leading-[1.9] opacity-70" style={{ color: '#043e91' }}>
-                Je m'engage à réaliser une cuisine maison avec passion, le respect des traditions et des saveurs authentiques. Discrétion et professionnalisme sont mes priorités, fléxibilité et adaptation pour faire de votre événement un moment inoubliable. 
+                Mon univers culinaireMa cuisine est le reflet de mon histoire et de mes voyages.Une cuisine méditerranéenne authentique, inspirée des traditions : italienne, grecque, turque et libanaise.Je propose également des créations en fusion, mêlant harmonieusement ces cultures pour offrir une expérience unique, équilibrée et moderne.Chaque plat raconte une histoire. Chaque repas devient un moment de partage.PrestationsJe propose des expériences de chef à domicile sur mesure :- Dîners privés- Événements à domicile- Expériences culinaires personnaliséesChaque prestation est adaptée aux attentes du client, avec une attention particulière portée aux détails.
+              </p>
+              <p className="text-sm leading-[1.9] opacity-70" style={{ color: '#043e91' }}>
+                Engagement- Produits frais et de saison- Cuisine entièrement faite maison- Respect des saveurs et des traditions- Adaptation aux régimes : halal, végétarien, végan, sans gluten- Discrétion et professionnalismeZone d’interventionCôte d’Azur – de Menton à Saint-TropezSignatureUlysse - Le Voyage des SaveursUne cuisine née du voyage, au croisement des cultures méditerranéennes
               </p>
             </ScrollReveal>
 
