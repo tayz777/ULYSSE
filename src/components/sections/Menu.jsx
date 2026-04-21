@@ -378,10 +378,10 @@ export default function Menu() {
 
         {/* Notes */}
         <ScrollReveal delay={0.3} className="mt-14 space-y-2">
-          <p className="text-[11px] opacity-35 leading-relaxed italic" style={{ color: '#FFFAF1', fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+          <p className="text-[20px] opacity-35 leading-relaxed italic" style={{ color: '#FFFAF1', fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
             * Je suis attentif aux allergènes et me tiens à votre disposition pour toute adaptation.
           </p>
-          <p className="text-[11px] opacity-35 leading-relaxed italic" style={{ color: '#FFFAF1', fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+          <p className="text-[20px] opacity-35 leading-relaxed italic" style={{ color: '#FFFAF1', fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
             * Je peux adapter chaque plat selon vos préférences végétariennes, végan et halal.
           </p>
         </ScrollReveal>
