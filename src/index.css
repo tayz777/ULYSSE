@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #043e91;
+  --color-brand-light: #1a56b0;
+  --color-brand-dark: #022a61;
+  --color-bg: #FFFAF1;
+  --color-cream: #F5EDD8;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #FFFAF1;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: #FFFAF1;
+    color: #043e91;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  #root {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    text-align: left;
+    border: none;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  ::selection {
+    background-color: #043e91;
+    color: #FFFAF1;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FFFAF1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #043e91;
+    border-radius: 2px;
+  }
+}
+
+@layer utilities {
+  .hover-underline {
+    position: relative;
+  }
+  .hover-underline::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: currentColor;
+    transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .hover-underline:hover::after,
+  .hover-underline.active::after {
+    width: 100%;
+  }
+
+  .text-brand   { color: #043e91; }
+  .bg-brand     { background-color: #043e91; }
+  .bg-page      { background-color: #FFFAF1; }
+  .border-brand { border-color: #043e91; }
+
+  .font-display {
+    font-family: "Cormorant Garamond", Georgia, serif;
+  }
+}

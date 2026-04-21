@@ -1,0 +1,8 @@
+# robots.txt — Ulysse Traiteur (https://www.ulysse-saveurs.com)
+# Autoriser tous les robots d'exploration (Google, Bing, etc.)
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.ulysse-saveurs.com/sitemap.xml
