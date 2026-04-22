@@ -382,7 +382,7 @@ export default function Menu() {
             * Je suis attentif aux allergènes et me tiens à votre disposition pour toute adaptation.
           </p>
           <p className="text-[20px] opacity-35 leading-relaxed italic" style={{ color: '#FFFAF1', fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-            * Je peux adapter chaque plat selon vos préférences végétariennes, végan et halal.
+            * Je peux adapter chaque plat selon vos préférences végétariennes, végan, halal, sans gluten.
           </p>
         </ScrollReveal>
       </div>

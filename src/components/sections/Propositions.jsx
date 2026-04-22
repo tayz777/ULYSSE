@@ -29,7 +29,7 @@ export default function Propositions() {
         {/* Header + intro */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-16">
           <SectionTitle
-            eyebrow="Mes Propositions"
+            eyebrow=""
             title={<>Ce que<br />je propose</>}
           />
           <ScrollReveal delay={0.3} className="md:max-w-sm">
@@ -123,26 +123,35 @@ export default function Propositions() {
                       <rect x="10" y="2" width="44" height="5" rx="1"/>
                     </svg>
                   )}
-                  {/* Turquie — mosquée */}
+                  {/* Turquie — croissant + mosquée + étoile */}
                   {i === 2 && (
-                    <svg viewBox="0 0 64 80" className="w-12 md:w-[45%] md:max-w-[80px]" fill="none" stroke="rgba(4,62,145,1)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M 12,40 Q 12,14 32,8 Q 52,14 52,40"/>
-                      <line x1="32" y1="8" x2="32" y2="2"/>
-                      <path d="M 30,2 Q 28,-2 32,-2 Q 34,0 32,2"/>
-                      <line x1="10" y1="40" x2="54" y2="40"/>
-                      <path d="M 16,40 Q 16,28 24,24"/>
-                      <path d="M 48,40 Q 48,28 40,24"/>
-                      <path d="M 24,40 L 24,28 Q 28,24 32,24 Q 36,24 40,28 L 40,40"/>
-                      <line x1="10" y1="40" x2="10" y2="66"/>
-                      <line x1="54" y1="40" x2="54" y2="66"/>
-                      <line x1="10" y1="56" x2="54" y2="56"/>
-                      <path d="M 18,56 L 22,48 L 26,56"/>
-                      <path d="M 30,56 L 34,48 L 38,56"/>
-                      <path d="M 42,56 L 46,48 L 50,56"/>
-                      <line x1="8" y1="66" x2="56" y2="66"/>
-                      <line x1="14" y1="72" x2="50" y2="72"/>
-                      <line x1="14" y1="66" x2="14" y2="72"/>
-                      <line x1="50" y1="66" x2="50" y2="72"/>
+                    <svg viewBox="0 0 130 128" className="w-14 md:w-[55%] md:max-w-[100px]">
+                      <defs>
+                        <mask id="cm2">
+                          <circle cx="50" cy="75" r="50" fill="white"/>
+                          <circle cx="63" cy="66" r="43" fill="black"/>
+                        </mask>
+                      </defs>
+                      {/* Croissant */}
+                      <circle cx="50" cy="75" r="50" fill="rgba(4,62,145,1)" mask="url(#cm2)"/>
+                      {/* Étoile 5 branches */}
+                      <path d="M108,11 L110.6,18.4 L118.5,18.6 L112.3,23.4 L114.5,30.9 L108,26.5 L101.5,30.9 L103.7,23.4 L97.5,18.6 L105.4,18.4 Z" fill="rgba(4,62,145,1)"/>
+                      {/* Mosquée — base */}
+                      <rect x="64" y="90" width="54" height="12" fill="rgba(4,62,145,1)"/>
+                      {/* Minaret gauche */}
+                      <rect x="66" y="64" width="5" height="27" fill="rgba(4,62,145,1)"/>
+                      <polygon points="66,64 68.5,56 71,64" fill="rgba(4,62,145,1)"/>
+                      {/* Minaret droit */}
+                      <rect x="111" y="64" width="5" height="27" fill="rgba(4,62,145,1)"/>
+                      <polygon points="111,64 113.5,56 116,64" fill="rgba(4,62,145,1)"/>
+                      {/* Dôme gauche */}
+                      <path d="M70,90 Q70,81 76,81 Q82,81 82,90Z" fill="rgba(4,62,145,1)"/>
+                      {/* Dôme droit */}
+                      <path d="M100,90 Q100,81 106,81 Q112,81 112,90Z" fill="rgba(4,62,145,1)"/>
+                      {/* Dôme central */}
+                      <path d="M80,90 Q80,72 91,72 Q102,72 102,90Z" fill="rgba(4,62,145,1)"/>
+                      {/* Finial central */}
+                      <rect x="90" y="64" width="2" height="8" fill="rgba(4,62,145,1)"/>
                     </svg>
                   )}
                   {/* Liban — cèdre */}

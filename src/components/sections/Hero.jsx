@@ -122,7 +122,7 @@ export default function Hero() {
           animate={{ opacity: 0.5, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Chef à domicile — Cannes & Côte d'Azur
+          Chef à domicile · Traiteur Cannes &amp; Côte d'Azur
         </motion.p>
 
         {/* Animated headline */}
