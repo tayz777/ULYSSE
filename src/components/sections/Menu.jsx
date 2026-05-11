@@ -7,7 +7,7 @@ const MENUS = [
   {
     id: 'decouverte',
     label: 'Menu Découverte',
-    price: '59 €',
+    price: '69 €',
     subtitle: 'Entrée, plat et dessert au choix',
     items: [
       { heading: 'Entrée', lines: ['Assortiment de 8 entrées / mezzés froids et chauds'] },
@@ -29,7 +29,7 @@ const MENUS = [
   {
     id: 'signature',
     label: 'Menu Signature',
-    price: '69 €',
+    price: '79 €',
     subtitle: 'Entrée, plat et dessert au choix',
     items: [
       { heading: 'Entrée', lines: ['Assortiment de 9 entrées / mezzés froids et chauds'] },
@@ -51,7 +51,7 @@ const MENUS = [
   {
     id: 'prestige',
     label: 'Menu Prestige',
-    price: '79 €',
+    price: '89 €',
     subtitle: 'Entrée, plat et dessert au choix',
     items: [
       { heading: 'Entrée', lines: ['Assortiment de 10 entrées / mezzés froids et chauds'] },
