@@ -77,7 +77,7 @@ export default function Histoire() {
                 </p>
                 <p className="text-sm leading-[1.9] opacity-70 mt-3" style={{ color: '#043e91' }}>
                   À Paris, j’ai travaillé dans des maisons de référence comme Guy Savoy, le traiteur libanais Noura et le Grand Hôtel Intercontinental.
-                  Entrepreneur, j’ai ensuite créé et dirigé 6 établissements à Gênes, sous le nom « Orient Express ».
+                  Entrepreneur, j’ai ensuite créé et dirigé 6 établissements à Genève, sous le nom « Orient Express ».
                   J’ai poursuivi mon chemin en France sur la Côte d’Azur où j’ai eu l’opportunité de mettre mon savoir-faire au service d’établissements prestigieux comme le Martinez, le Carlton et le Majestic avant d’être de nouveau gérant et chef cuisinier d’Akdeniz Traiteur.
                 </p>
                 <p className="text-sm leading-[1.9] opacity-70 mt-3" style={{ color: '#043e91' }}>
