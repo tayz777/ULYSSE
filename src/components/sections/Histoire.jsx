@@ -13,9 +13,10 @@ export default function Histoire() {
   const imageY = useTransform(scrollYProgress, [0, 1], [-60, 60])
 
   const prestations = [
-    'Dîners privés',
+    'Déjeuner / Dîner 8 -12 personnes',
     'Événements à domicile',
     'Expériences culinaires personnalisées',
+    'Traiteur pour événements',
   ]
   const engagements = [
     'Produits frais et de saison',
@@ -72,12 +73,12 @@ export default function Histoire() {
               <div>
                 <p className="text-[10px] tracking-[0.25em] uppercase mb-3 opacity-40" style={{ color: '#043e91' }}>Qui suis-je ?</p>
                 <p className="text-sm leading-[1.9] opacity-70" style={{ color: '#043e91' }}>
-                  Je suis Aldo, chef cuisinier d’origine méditerranéenne, né à Antakya (Antioche), de père grec et de mère libanaise.
-                  Mon parcours est celui d’un voyage à travers les cultures et les saveurs : Turquie, Syrie, Liban, Allemagne et Italie (Genève/Genova), où j’ai vécu plus de 20 ans.
+                  Je suis Aldo, chef cuisinier d’origine méditerranéenne, né à Antakya (Antioche, ville d'où partait la route de la soie et actuellement dans la liste de l'unesco pour sa cuisine.), de père grec et de mère libanaise.
+                  Mon parcours est celui d’un voyage à travers les cultures et les saveurs : Turquie, Syrie, Liban, Allemagne et Italie (Gênes/Genova), où j’ai vécu plus de 20 ans.
                 </p>
                 <p className="text-sm leading-[1.9] opacity-70 mt-3" style={{ color: '#043e91' }}>
                   À Paris, j’ai travaillé dans des maisons de référence comme Guy Savoy, le traiteur libanais Noura et le Grand Hôtel Intercontinental.
-                  Entrepreneur, j’ai ensuite créé et dirigé 6 établissements à Genève, sous le nom « Orient Express ».
+                  Entrepreneur, j’ai ensuite créé et dirigé 6 établissements à Gênes, sous le nom « Orient Express ».
                   J’ai poursuivi mon chemin en France sur la Côte d’Azur où j’ai eu l’opportunité de mettre mon savoir-faire au service d’établissements prestigieux comme le Martinez, le Carlton et le Majestic avant d’être de nouveau gérant et chef cuisinier d’Akdeniz Traiteur.
                 </p>
                 <p className="text-sm leading-[1.9] opacity-70 mt-3" style={{ color: '#043e91' }}>
