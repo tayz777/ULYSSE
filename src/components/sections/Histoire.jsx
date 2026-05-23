@@ -31,16 +31,16 @@ export default function Histoire() {
       id="histoire"
       ref={sectionRef}
       aria-label="Mon histoire — Chef Aldo, traiteur à domicile Cannes"
-      className="py-28 md:py-40 overflow-hidden"
+      className="py-16 md:py-40 overflow-hidden"
       style={{ backgroundColor: '#FFFAF1' }}
     >
       <div className="max-w-7xl mx-auto px-8 md:px-16">
 
-        <ScrollReveal className="mb-20">
+          <ScrollReveal className="mb-10 md:mb-20">
           <div className="h-px mb-8" style={{ backgroundColor: 'rgba(4,62,145,0.12)' }} />
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24 items-center">
 
           {/* Image column */}
           <div className="relative overflow-hidden rounded-sm" style={{ aspectRatio: '3/4' }}>
@@ -52,12 +52,6 @@ export default function Histoire() {
                 style={{ backgroundColor: '#FFFAF1' }}
               />
             </motion.div>
-
-            <ScrollReveal
-              delay={0.4}
-              className="absolute bottom-8 right-[-2rem] md:right-[-4rem] max-w-[16rem] bg-[#043e91] p-6 shadow-2xl"
-            >
-            </ScrollReveal>
           </div>
 
           {/* Text column */}

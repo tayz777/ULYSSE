@@ -21,13 +21,13 @@ export default function Propositions() {
     <section
       id="propositions"
       aria-label="Propositions traiteur à domicile — cuisine méditerranéenne Cannes & Côte d'Azur"
-      className="relative py-28 md:py-40 px-8 md:px-16 overflow-hidden"
+      className="relative py-16 md:py-40 px-8 md:px-16 overflow-hidden"
       style={{ backgroundColor: '#FFFAF1' }}
     >
       <div className="max-w-7xl mx-auto">
 
         {/* Header + intro */}
-        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-16">
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-10 md:mb-16">
           <SectionTitle
             eyebrow=""
             title={<>Ce que<br />je propose</>}
@@ -48,7 +48,7 @@ export default function Propositions() {
             {INFLUENCES.map((name, i) => (
               <motion.div
                 key={name}
-                className="relative py-8 px-6 flex flex-col items-center gap-4 border-r last:border-r-0 overflow-hidden"
+                className="relative py-8 px-6 flex flex-col items-center gap-4 border-r even:border-r-0 md:even:border-r last:border-r-0 overflow-hidden"
                 style={{ borderColor: 'rgba(4,62,145,0.12)' }}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -181,7 +181,7 @@ export default function Propositions() {
         {/* Points forts — horizontal flow */}
         <ScrollReveal delay={0.15}>
           <div
-            className="mt-16 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 py-6"
+            className="mt-8 md:mt-16 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 py-6"
             style={{ borderTop: '1px solid rgba(4,62,145,0.10)', borderBottom: '1px solid rgba(4,62,145,0.10)' }}
           >
             {POINTS.map((text, i) => (

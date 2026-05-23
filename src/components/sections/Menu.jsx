@@ -129,7 +129,7 @@ export default function Menu() {
       </div>
 
       {/* Wordmark */}
-      <div className="absolute top-[100px] right-8 md:top-12 md:right-16 z-30 pointer-events-none select-none flex flex-col items-end">
+      <div className="absolute top-[100px] right-8 md:top-12 md:right-16 z-30 pointer-events-none select-none hidden md:flex flex-col items-end">
         <span style={{
           fontFamily: '"Cinzel", "Trajan Pro", Georgia, serif',
           fontSize: 'clamp(1.1rem, 1.6vw, 1.3rem)',

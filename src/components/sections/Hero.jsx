@@ -111,12 +111,12 @@ export default function Hero() {
 
       {/* Main content */}
       <motion.div
-        className="relative z-10 px-8 md:px-16 pb-20 pt-40 max-w-7xl mx-auto w-full"
+        className="relative z-10 px-8 md:px-16 pb-16 md:pb-20 pt-24 md:pt-40 max-w-7xl mx-auto w-full"
         style={{ opacity: fadeY }}
       >
         {/* Eyebrow */}
         <motion.p
-          className="text-xs font-medium tracking-[0.3em] uppercase mb-10 opacity-50"
+          className="text-xs font-medium tracking-[0.3em] uppercase mb-5 md:mb-10 opacity-50"
           style={{ color: '#043e91' }}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 0.5, y: 0 }}
@@ -127,7 +127,7 @@ export default function Hero() {
 
         {/* Animated headline */}
         <h1
-          className="mb-12"
+          className="mb-8 md:mb-12"
           style={{
             fontFamily: '"Cormorant Garamond", Georgia, serif',
             fontSize: 'clamp(3.8rem, 10vw, 9rem)',

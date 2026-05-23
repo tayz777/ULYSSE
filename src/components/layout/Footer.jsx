@@ -47,10 +47,10 @@ export default function Footer() {
       </div>
 
       {/* Main content */}
-      <div className="relative z-10 max-w-7xl mx-auto pt-20 pb-10">
+      <div className="relative z-10 max-w-7xl mx-auto pt-12 md:pt-20 pb-8 md:pb-10">
 
         {/* Top row — Logo centered + nav */}
-        <div className="flex flex-col items-center text-center mb-16">
+          <div className="flex flex-col items-center text-center mb-8 md:mb-16">
           <p
             className="mt-4"
             style={{
@@ -80,7 +80,7 @@ export default function Footer() {
         </div>
 
         {/* Navigation row — horizontal centered */}
-        <nav className="flex flex-wrap justify-center gap-8 md:gap-12 mb-14">
+          <nav className="flex flex-wrap justify-center gap-8 md:gap-12 mb-8 md:mb-14">
           {NAV_ITEMS.map((item) => (
             <button
               key={item.id}
@@ -105,10 +105,10 @@ export default function Footer() {
         </nav>
 
         {/* Thin divider */}
-        <div className="max-w-md mx-auto h-px mb-14" style={{ backgroundColor: 'rgba(255,250,241,0.10)' }} />
+<div className="max-w-md mx-auto h-px mb-8 md:mb-14" style={{ backgroundColor: 'rgba(255,250,241,0.10)' }} />
 
         {/* Contact info — horizontal on desktop */}
-        <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16 mb-14">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16 mb-8 md:mb-14">
           {[
             { label: 'Email', value: 'aldo@ulysse-saveurs.com' },
             { label: 'Tél', value: '+33 6 26 97 50 72' },
@@ -148,7 +148,7 @@ export default function Footer() {
         </div>
 
         {/* Social icons */}
-        <div className="flex justify-center gap-4 mb-16">
+          <div className="flex justify-center gap-4 mb-8 md:mb-16">
           {[
             { Icon: Camera, href: '#', label: 'Instagram' },
             { Icon: Globe, href: '#', label: 'Facebook' },
@@ -175,11 +175,11 @@ export default function Footer() {
         </div>
 
         {/* Logo seal */}
-        <div className="flex justify-center mb-10">
+        <div className="flex justify-center mb-6 md:mb-10">
           <img
             src={logoUlysse}
             alt="Ulysse"
-            style={{ height: '250px', width: '250px', objectFit: 'contain', borderRadius: '50%', opacity: 0.7 }}
+            className="w-24 h-24 md:w-[250px] md:h-[250px] object-contain rounded-full opacity-70"
           />
         </div>
 

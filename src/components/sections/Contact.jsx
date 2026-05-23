@@ -80,16 +80,16 @@ export default function Contact() {
     <section
       id="contact"
       aria-label="Contacter le traiteur Ulysse — Cannes & Côte d'Azur"
-      className="py-28 md:py-40 px-8 md:px-16"
+      className="py-16 md:py-40 px-8 md:px-16"
       style={{ backgroundColor: '#FFFAF1' }}
     >
       <div className="max-w-7xl mx-auto">
 
         <ScrollReveal>
-          <div className="h-px mb-20" style={{ backgroundColor: 'rgba(4,62,145,0.12)' }} />
+          <div className="h-px mb-12 md:mb-20" style={{ backgroundColor: 'rgba(4,62,145,0.12)' }} />
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-32">
 
           {/* Left — Info */}
           <div>
@@ -99,7 +99,7 @@ export default function Contact() {
               subtitle=""
             />
 
-            <ScrollReveal delay={0.3} className="mt-14 space-y-6">
+            <ScrollReveal delay={0.3} className="mt-8 md:mt-14 space-y-6">
               {[
                 { label: 'Email', value: ' aldo@ulysse-saveurs.com' },
                 { label: 'Téléphone', value: '+33 6 26 97 50 72' },
@@ -117,7 +117,7 @@ export default function Contact() {
             </ScrollReveal>
 
             {/* Ambient decorative block */}
-            <div className="mt-16 select-none pointer-events-none" aria-hidden="true">
+            <div className="mt-8 md:mt-16 select-none pointer-events-none" aria-hidden="true">
               <div
                 style={{
                   fontFamily: '"Cormorant Garamond", Georgia, serif',
