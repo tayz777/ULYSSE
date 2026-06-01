@@ -28,7 +28,7 @@ export default function SectionTitle({ eyebrow, title, subtitle, align = 'left' 
           className="font-display leading-[0.95] tracking-tight"
           style={{
             fontFamily: '"Cormorant Garamond", Georgia, serif',
-            fontSize: 'clamp(2.8rem, 6vw, 5.5rem)',
+            fontSize: 'clamp(2rem, 6vw, 5.5rem)',
             color: '#043e91',
           }}
         >

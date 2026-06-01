@@ -130,12 +130,11 @@ export default function Hero() {
           className="mb-8 md:mb-12"
           style={{
             fontFamily: '"Cormorant Garamond", Georgia, serif',
-            fontSize: 'clamp(3.8rem, 10vw, 9rem)',
+            fontSize: 'clamp(1.8rem, 9vw, 9rem)',
             fontWeight: 400,
-            lineHeight: 0.92,
+            lineHeight: 0.95,
             letterSpacing: '-0.02em',
             color: '#043e91',
-            overflow: 'hidden',
           }}
         >
           {TAGLINE.map((word, i) => (

@@ -164,7 +164,7 @@ export default function Menu() {
             </p>
             <h2 style={{
               fontFamily: '"Cormorant Garamond", Georgia, serif',
-              fontSize: 'clamp(2.8rem, 6vw, 5.5rem)',
+              fontSize: 'clamp(2rem, 6vw, 5.5rem)',
               fontWeight: 400,
               lineHeight: 0.95,
               letterSpacing: '-0.02em',

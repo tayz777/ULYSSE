@@ -121,7 +121,7 @@ export default function Contact() {
               <div
                 style={{
                   fontFamily: '"Cormorant Garamond", Georgia, serif',
-                  fontSize: 'clamp(3rem, 8vw, 5.5rem)',
+                  fontSize: 'clamp(2rem, 8vw, 5.5rem)',
                   fontWeight: 300,
                   fontStyle: 'italic',
                   color: 'rgba(4,62,145,0.07)',
